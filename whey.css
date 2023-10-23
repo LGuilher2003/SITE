@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #24252C;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+section.itens{   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.item{
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc ;
+    margin: 10px;
+    padding: 20px;
+    width: calc(12.33% - 20px);
+}
+.preço{
+    color: green;
+    font-size: 25px;
+}
+.preçoVIT{
+    color: #A72371;
+    font-size: 20px;
+}
+.preçored{
+    color: red;
+    font-size: 20px;
+}
+.descricao{
+    font-size: 15px;
+    color: black;
+}
+
+section.promocao {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+section.produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px); 
+}
+
+.produto img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.produto h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.produto p {
+    margin-top: 5px;
+}
+
+.botao-compra {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.botao-mais {
+    background-color: black;
+    color: #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section.promocao {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+section.destaques{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.destaque{
+    
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc ;
+    margin: 10px;
+    padding: 20px;
+    width: calc(12.33% - 20px);
+}
+section.principais{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+.principais p{
+    font-size: "20";
+}
+
+section.produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px); 
+}
+.produto img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.produto h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.produto p {
+    margin-top: 5px;
+}
+
+.botao-compra {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

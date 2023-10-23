@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+section.semana{
+    
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+.descricao{
+    font-size: 15px;
+    color: black;
+}
+.preço{
+    color: green;
+    font-size: 25px;
+}
+section.itens{   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.item{
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc ;
+    margin: 10px;
+    padding: 20px;
+    width: calc(12.33% - 20px);
+}
+.botao-compra {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
